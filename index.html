@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <script>
+        function md(el) {
+            var display = document.getElementById(el).style.display;
+            if(display == "block")
+                document.getElementById(el).style.display = 'none';
+            else
+                document.getElementById(el).style.display = 'block';
+            }
+            </script>
+        <title>Portifolio</title>
+    </head>
+    <body>
+        <div class="header" >
+            <img src="logoimagem-semfundo1.png" atl="logoimagem-semfundo1.png" title="logoimagem" height="40"></img>
+            <p class="d">Sobre Você</p>
+            <p class="d">Conhecimentos</p>
+            <p class="d">Contato</p>
+        </div>
+            <p id="case"><b>Sobre você</b></p>
+            <div class="header2">
+                <img src="Foto.jpeg" atl="foto.jpeg" height="200" title="foto" class="vit">
+                <p id="case2">Me chamo Pedro, tenho 22 anos estou bacharelando em Ciência da Computação na Universidade Federal de Uberlândia</p>
+            </div>
+            <p style=" text-align:center;"><b>Conhecimentos</b></p>
+                <div class="borda">
+                    <div class="header3">
+                        <button type="button" onclick="md('form1')" class="button">Educação</button>
+                        <button type="button" onclick="md('form2')" class="button">Habilidades</button>
+                        <button type="button" onclick="md('form3')" class="button">Soft skills</button>       
+                    </div>
+                    <div id="form1" class="ocl2">
+                        <ul>
+                            <li>Ensino médio completo</li>
+                            <li>Bacharelando em Ciência da Computação</li>
+                        </ul>
+                    </div>
+                        <div id ="form2" class="ocl">
+                            <ul>
+                                <li>C</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                            <div id ="form3" class="ocl">
+                                <ul>
+                                    <li>Resiliência</li>
+                                    <li>Comunicação</li>
+                                    <li>Princípios éticos</li>
+                                    <li>Confiança</li>
+                                    <li>Atitude positiva</li>
+                                    <li>Motivação</li>
+                                    <li>Trabalho em equipe</li>
+                                    <li>Organização</li>
+                                    <li>Capacidade de trabalhar sob pressão</li>
+                                    <li>Flexibilidade</li>
+                                    <li>Segurança</li>
+                                </ul>
+                            </div>
+                    </div>
+                <p style="font-size: 20px; margin-left: 125px; "><b>Contato</b></p>
+                <div class="header4">
+                    <img src="agenda1.png" atl="agenda1" height="60" title="agenda1" style="margin-left:110px" ></img>
+                    <p>Email: Pedroho.9@hotmail.com <br> Telefone: (34)988917391<br>Linkedin: <a>Indisponível</a></p>
+                </div>
+            <div class="barra">
+                <footer class="d">Desenvolvido com <img src="heart1.svg" atl="heart1.svg" title="heart" class="cl"> por Pedro Henrique de Oliveira</footer>
+            </div>
+    </body>
+
+</html>
